@@ -1,0 +1,12 @@
+@media(max-width:1000px){
+    .project-wrapper{
+        height: 800px;
+        padding-bottom: 80px;
+    }
+}
+
+@media(max-width:670px){
+    .about-txt{
+        font-size: 12px;
+    }
+}

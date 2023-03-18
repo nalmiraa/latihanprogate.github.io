@@ -1,0 +1,170 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+header{
+    background-color: #2a384c;
+    color: #f0f0f0;
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-logo{
+    float: left;
+    font-size: 28px;
+    padding: 15px 25px;
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+
+.header-list{
+    float: left;
+}
+
+.header-list li{
+    float: left;
+    padding: 20px 20px;
+    margin-left: 20px;
+}
+
+.top-wrapper{
+    padding: 180px 0px  100px 0px;
+    color: black;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.top-wrapper p{
+    font-size: 50px;
+    font-family:"Helvetica";
+    margin-bottom: 10px;
+}
+
+.section-title{
+    font-size: 85px;
+    letter-spacing: 7px;
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+
+span{
+    color: orange;
+}
+
+.top-img{
+    width: 25%;
+}
+
+.about-wrapper{
+    text-align: center;
+    background-color: #eeeeee;
+    padding: 50px 75px;
+    color: #5f5d60;
+}
+
+.heading{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+    
+}
+
+.about-txt{
+    display: block;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.project-wrapper{
+    height: 900px;
+    padding-bottom: 150px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+
+.project{
+    float: left;
+    margin-left: 10px;
+}
+
+.project-img{
+    margin-bottom: 10px;
+}
+
+.project p{
+    margin-bottom: 10px;
+}
+
+.contact-wrapper{
+    padding-bottom: 80px;
+    background-color: #eeeeee;
+    text-align: center;
+}
+
+input,textarea{
+    width: 400px;
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 1px solid #dee7ec;
+    border-radius: 10px;
+}
+
+.contact-wrapper span{
+    background-color: #F0E68C;
+    color: black;
+    font-size: 12x;
+    padding: 10px 100px;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.contact-wrapper span:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+footer{
+    height: 150px;
+    background-color: #2a384c;
+    color: #f0f0f0;
+}
+
+.footer-logo{
+    float: left;
+    font-size: 28px;
+    padding: 20px 25px 40px 25px;
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+
+.footer-list{
+    float: right;
+    padding: 25px 30px;
+}
+
+.footer-list li{
+    font-size: 18px;
+    line-height: 35px;
+    
+}
